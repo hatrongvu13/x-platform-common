@@ -1,4 +1,4 @@
-package com.xxx;
+package com.xxx.common;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;

@@ -18,7 +18,7 @@
   <repositories>
     <repository>
       <id>github</id>
-      <url>https://maven.pkg.github.com/hatrongvu13/x-platform-proto</url>
+      <url>https://maven.pkg.github.com/hatrongvu13/x-platform-common</url>
     </repository>
   </repositories>
 

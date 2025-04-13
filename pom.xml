@@ -15,10 +15,17 @@
   <name>x-platform-common</name>
   <url>http://maven.apache.org</url>
 
-  <repositories>
+  <distributionManagement>
     <repository>
       <id>github</id>
       <url>https://maven.pkg.github.com/hatrongvu13/x-platform-common</url>
+    </repository>
+  </distributionManagement>
+
+  <repositories>
+    <repository>
+      <id>github</id>
+      <url>https://maven.pkg.github.com/hatrongvu13/x-platform-proto</url>
     </repository>
   </repositories>
 

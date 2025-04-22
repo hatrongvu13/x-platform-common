@@ -27,7 +27,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}  # Sử dụng GITHUB_TOKEN mặc định
+          password: ${{ secrets.CUSTOM_TOKEN }}  # Sử dụng GITHUB_TOKEN mặc định
 
       - name: Set up java JDK
         uses: actions/setup-java@v2
@@ -39,7 +39,7 @@ jobs:
         run: |
           mvn clean install -DskipTests=true -B -X -e
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN_CUSTOM }}
+          GITHUB_TOKEN: ${{ secrets.CUSTOM_TOKEN }}
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v6
